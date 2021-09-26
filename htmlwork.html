@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form </title>
+</head>
+<style>
+    label{
+        font-size: 19px;
+    }
+    table{ 
+border-spacing:20px;
+
+    }
+    input{
+        outline:none;
+    }
+td{
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+}
+body{align-items: center;
+    background-color:#f1eaf9;
+
+}
+.a{
+    background-color: white;
+    width: 90%;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color:white;
+  font-size: 19px;
+}
+form { 
+margin: 0 auto; 
+width:500px;
+}
+
+</style>
+<body style="text-align: center;">
+<h3>
+    Form Design Exercise:
+</h3>
+<h1> SAMPLE FORM</h1>
+<form>
+    <table>
+        <tr>
+            <td><label>Email <text style="color:red">*</text><br>
+                <input class="a" type="text" placeholder="Your email" required></label> </input></td>
+        </tr> 
+       <tr>
+           <td>
+           <label> Firstname </label><br>
+            <input class="a" type="text" placeholder="Your answer"></input>
+            </td>
+       </tr>
+        <tr>
+            <td><label>Last name </label><br>
+                <input class="a" type="text" placeholder="Your answer"></input></td>
+        </tr>
+        <tr>
+            <td><label>Research Interest (list at least 3) <text style="color:red">*</text></label><br>
+                <input class="a" type="text" placeholder="Your answer" required></input></td>
+        </tr>
+        <tr>
+            <td>
+                <label>Project Title - (e.g. income vs education US Census) <text style="color:red">*</text></label><br>
+        <input class="a" type="text" placeholder="Your answer" required></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                <label>Top Skills<text style="color:red">*</text></label><br><br>
+                <input type="checkbox">&nbsp;<label>SQL</label> <br><br>
+                <input type="checkbox">&nbsp;<label>Python programming</label> <br><br>
+                <input type="checkbox">&nbsp;<label>Matlab</label> <br><br>
+                <input type="checkbox">&nbsp;<label>D3js and Javascript</label> <br><br>
+                <input type="checkbox">&nbsp;<label>C# VB.net</label> <br><br>
+                <input type="checkbox">&nbsp;<label>PHP</label><br><br>
+                <input type="checkbox">&nbsp;<label>Node.JS</label><br><br>
+                <input type="checkbox">&nbsp;<label>Web design tools (e.g. Wordpress)</label><br><br>
+                <input type="checkbox">&nbsp;<label>HTML and CSS</label><br><br>
+                <input type="checkbox">&nbsp;<label>Excel</label><br><br>
+                <input type="checkbox">&nbsp;<label>PowerBI</label><br><br>
+                <input type="checkbox">&nbsp;<label>Tableau</label><br><br>
+                <input type="checkbox">&nbsp;<label>Option 13</label><br><br>
+                <input type="checkbox">&nbsp;<label>Other:<input type="text"></label></input></label>
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Suggestions or Questions</label><br>
+                <input class="a" type="text" placeholder="Your answer"></input>
+            </td>
+        </tr>
+    </table>
+    <div style="align-items: left;justify-content: left;display: flex;">
+        &nbsp;&nbsp;&nbsp;<input type="submit" style="background-color: plum;width: 476px;padding: 15px;font-size: 20px;
+        border-radius: 10px;"></div>
+    <div style="align-items: right;justify-content: right;display: flex;">
+            &nbsp;&nbsp;&nbsp;<input type="reset" value="Clear Form" style="background-color: plum;width: 476px;padding: 15px;font-size: 20px;
+            border-radius: 10px;"></div>
+    
+
+</form>
+</body>
+</html>
